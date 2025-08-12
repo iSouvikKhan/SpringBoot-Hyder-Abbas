@@ -12,6 +12,9 @@ public class DiApplication {
 	{
 		ConfigurableApplicationContext container = SpringApplication.run(DiApplication.class, args);
 
+		int count = container.getBeanDefinitionCount();
+		System.out.println("Bean definition count " + count);
+
 		Greetings service = container.getBean(Greetings.class);
 
 		System.out.println(service.generateGreetings("Souvik"));
