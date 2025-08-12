@@ -15,6 +15,11 @@ public class DiApplication {
 		int count = container.getBeanDefinitionCount();
 		System.out.println("Bean definition count " + count);
 
+		var names = container.getBeanDefinitionNames();
+		for(var name : names) {
+			System.out.println(name);
+		}
+
 		Greetings service = container.getBean(Greetings.class);
 
 		System.out.println(service.generateGreetings("Souvik"));
