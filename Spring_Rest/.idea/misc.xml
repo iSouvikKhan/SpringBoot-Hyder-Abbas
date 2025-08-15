@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/RestApp1/pom.xml" />
+        <option value="$PROJECT_DIR$/RestAppActuator/RestAppActuator/pom.xml" />
+        <option value="$PROJECT_DIR$/RestAppActuator/pom.xml" />
       </list>
     </option>
   </component>
