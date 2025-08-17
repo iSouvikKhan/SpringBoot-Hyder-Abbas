@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="RestApp1" />
+        <module name="hateoas" />
         <module name="RestAppActuator" />
         <module name="TouristBackendApp" />
         <module name="RestApp1 (2)" />
@@ -23,6 +24,7 @@
       <module name="RestAppActuator" options="-parameters" />
       <module name="TouristBackendApp" options="-parameters" />
       <module name="TouristBackendApp (1)" options="-parameters" />
+      <module name="hateoas" options="-parameters" />
     </option>
   </component>
 </project>
