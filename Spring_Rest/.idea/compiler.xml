@@ -12,6 +12,7 @@
         <module name="TouristBackendApp" />
         <module name="RestApp1 (2)" />
         <module name="RestApp1 (1)" />
+        <module name="TicketBookingWebApp" />
         <module name="TouristBackendApp (1)" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="RestApp1 (1)" options="-parameters" />
       <module name="RestApp1 (2)" options="-parameters" />
       <module name="RestAppActuator" options="-parameters" />
+      <module name="TicketBookingWebApp" options="-parameters" />
       <module name="TouristBackendApp" options="-parameters" />
       <module name="TouristBackendApp (1)" options="-parameters" />
       <module name="hateoas" options="-parameters" />

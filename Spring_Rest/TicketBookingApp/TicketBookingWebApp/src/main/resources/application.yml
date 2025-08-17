@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: TicketBookingWebApp
+
+server:
+  servlet:
+    context-path: /ticketbookingapp
+  port: 8484
