@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/RestAppActuator/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootProfiles/pom.xml" />
         <option value="$PROJECT_DIR$/TouristBackendApp/pom.xml" />
+        <option value="$PROJECT_DIR$/TouristBackendGlobalExceptionHandling/pom.xml" />
       </list>
     </option>
   </component>
