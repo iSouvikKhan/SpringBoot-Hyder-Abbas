@@ -12,6 +12,7 @@
         <module name="RestAppActuator" />
         <module name="TouristBackendApp" />
         <module name="RestApp1 (2)" />
+        <module name="AopExample" />
         <module name="RestApp1 (1)" />
         <module name="TicketBookingWebApp" />
         <module name="TouristBackendApp (1)" />
@@ -21,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="AopExample" options="-parameters" />
       <module name="ApacheKafkaSpringBoot" options="-parameters" />
       <module name="RestApp1" options="-parameters" />
       <module name="RestApp1 (1)" options="-parameters" />
