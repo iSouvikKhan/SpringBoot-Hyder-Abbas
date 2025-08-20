@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="RestApp1" />
         <module name="hateoas" />
+        <module name="ApacheKafkaSpringBoot" />
         <module name="RestAppActuator" />
         <module name="TouristBackendApp" />
         <module name="RestApp1 (2)" />
@@ -20,6 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApacheKafkaSpringBoot" options="-parameters" />
       <module name="RestApp1" options="-parameters" />
       <module name="RestApp1 (1)" options="-parameters" />
       <module name="RestApp1 (2)" options="-parameters" />

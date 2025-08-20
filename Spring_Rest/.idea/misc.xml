@@ -14,6 +14,7 @@
         <option value="$PROJECT_DIR$/hateoas/pom.xml" />
         <option value="$PROJECT_DIR$/TicketBookingApp/TicketBookingWebApp/pom.xml" />
         <option value="$PROJECT_DIR$/RestAppXML/pom.xml" />
+        <option value="$PROJECT_DIR$/Kafka/ApacheKafkaSpringBootConsume/pom.xml" />
       </list>
     </option>
   </component>
