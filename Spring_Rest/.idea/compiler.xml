@@ -6,17 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="RestAppActuator" />
+        <module name="TouristBackendApp" />
+        <module name="RestApp1 (2)" />
+        <module name="RestApp1 (1)" />
+        <module name="TouristBackendApp (1)" />
         <module name="RestApp1" />
         <module name="BatchPApp" />
         <module name="hateoas" />
         <module name="ApacheKafkaSpringBoot" />
-        <module name="RestAppActuator" />
-        <module name="TouristBackendApp" />
-        <module name="RestApp1 (2)" />
+        <module name="BackEndSMProject" />
         <module name="AopExample" />
-        <module name="RestApp1 (1)" />
         <module name="TicketBookingWebApp" />
-        <module name="TouristBackendApp (1)" />
         <module name="RestAppActuator (1)" />
       </profile>
     </annotationProcessing>
@@ -25,6 +26,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="AopExample" options="-parameters" />
       <module name="ApacheKafkaSpringBoot" options="-parameters" />
+      <module name="BackEndSMProject" options="-parameters" />
       <module name="BatchPApp" options="-parameters" />
       <module name="RestApp1" options="-parameters" />
       <module name="RestApp1 (1)" options="-parameters" />
