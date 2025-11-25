@@ -1,0 +1,44 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/security
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: root
+
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 5
+      connection-timeout: 20000
+      idle-timeout: 300000
+      max-lifetime: 1800000
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: your-google-client-id
+            client-secret: your-google-client-secret
+            redirect-uri: "{baseUrl}/login/oauth2/code/google"
+            scope: openid,profile,email
+          github:
+            client-id: your-github-client-id
+            client-secret: your-github-client-secret
+            redirect-uri: "{baseUrl}/login/oauth2/code/github"
+            scope: user:email
+
+jwt:
+  secret: please_change_me_to_a_strong_secret
+  access-expiration-ms: 3600000
+  refresh-expiration-ms: 1209600000
